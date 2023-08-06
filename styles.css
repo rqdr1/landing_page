@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(49, 49, 49);
+    flex: auto;
+}
+
+.header {
+    flex-direction: row;
+}
