@@ -1,8 +1,59 @@
 body {
     background-color: rgb(49, 49, 49);
-    flex: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.header {
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+}
+
+.header-info {
+    display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 64px;
+}
+
+.highlights {
+    flex-wrap: wrap;
+}
+
+.hl-img {
+    width: 400px;
+    height: 200px;
+}
+
+.information {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;  
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    justify-content: center;
+    
+}
+
+button {
+    display: flex;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 12px;
+    color: #E5E7EB;
 }
